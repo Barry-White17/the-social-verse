@@ -1,0 +1,47 @@
+.card {
+    width: 30vw;
+    padding: 20px;
+    position: absolute;
+    color: gray;
+    background-color: gray;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px #0000001a;
+    display: flex;
+    justify-content: center;
+    top: 20vh;
+    height: 70%;
+}
+.root {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 15vh;
+}
+.textField {
+    width: 25vw;
+    top: 30px;
+}
+.title {
+    padding: 20px;
+    position: relative;
+    top: 20px;
+}
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardActions {
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.submit__button {
+    color: red;
+    width: 330px;
+    top: 300px;
+}
+.bottom__text {
+    position: absolute;
+    top: 350px;
+}
