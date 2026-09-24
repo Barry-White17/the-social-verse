@@ -15,7 +15,7 @@ import { useUser } from './../hooks/userHook.js'
 import { signout } from './../auth/api-auth.js'
 
 const isActive = (history, path) => {
-    if (history.pathname == path) {
+    if (history.pathname === path) {
         return 'header__option header__option--active'
     } else {
         return 'header__option'
