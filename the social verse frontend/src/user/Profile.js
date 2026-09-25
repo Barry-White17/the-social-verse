@@ -80,7 +80,7 @@ export default function Profile() {
                         primary={userData.name}
                         secondary={userData.email}
                     />{' '}
-                    {user.user && user.user._id == userData._id && (
+                    {user.user && user.user._id === userData._id && (
                         <ListItemSecondaryAction>
                             <Link to={'/user/edit/' + user.user._id}>
                                 <IconButton
